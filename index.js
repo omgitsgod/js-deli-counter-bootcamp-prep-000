@@ -9,6 +9,6 @@ function nowServing(line) {
   if (line.length > 0) {
     return `Currently serving ${line[0]}.`
   } else {
-    return "The line is empty"
+    return "There is nobody waiting to be served!"
   }
 }
