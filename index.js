@@ -27,4 +27,10 @@ function currentLine(line) {
   }
 }
 
-if (!)
+if (!line.length) {
+  return "The line is currently empty."
+}
+blah = []
+for (var i =0; i < line.length; i++) {
+  
+}
