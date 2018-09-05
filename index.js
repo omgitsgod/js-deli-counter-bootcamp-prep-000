@@ -16,7 +16,7 @@ function nowServing(line) {
 
 function currentLine(line) {
   
-  blah = []
+  var blah = []
   if (line.length > 0) {
   for (var i = 0; i < line.length; i++) {
     blah.push(`${i+1}. ${line[i]}`)
