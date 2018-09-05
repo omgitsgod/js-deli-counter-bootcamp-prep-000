@@ -1,6 +1,6 @@
 
 
-function takeANuber(current, neww) {
+function takeANumber(current, neww) {
   current.push(neww)
-  return `Welcome ${name}. You are number ${current.length} in lie.`
+  return `Welcome ${name}. You are number ${current.length} in line.`
 }
