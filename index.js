@@ -11,5 +11,5 @@ function nowServing(line) {
   } else {
     return `Currently serving ${line[0]}.`
   }
-  line.pop()
+  line.shift()
 }
