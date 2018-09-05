@@ -7,6 +7,8 @@ function takeANumber(current, neww) {
 
 function nowServing(line) {
   if (line > 0) {
-    return ``
+    return `Currently serving ${line[0]}.`
+  } else {
+    return "The line is empty"
   }
 }
