@@ -32,5 +32,5 @@ if (!line.length) {
 }
 blah = []
 for (var i =0; i < line.length; i++) {
-  
+  blah.push(`${i+1}. $line[i]}`)
 }
