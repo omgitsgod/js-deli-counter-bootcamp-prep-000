@@ -6,5 +6,7 @@ function takeANumber(current, neww) {
 }
 
 function nowServing(line) {
-  
+  if (line > 0) {
+    return ``
+  }
 }
